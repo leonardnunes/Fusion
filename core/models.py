@@ -3,7 +3,7 @@ from django.db import models
 from stdimage.models import StdImageField
 
 
-# uuid cria um id para cada arquivo de upload
+# uuid cria um id para cada arquivo de ‘upload’
 
 def get_file_path(_instance, filename):
     extensao = filename.split('.')[-1]
